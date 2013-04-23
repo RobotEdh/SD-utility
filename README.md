@@ -13,3 +13,6 @@ Improvements of the standard SD Card lib:
  clear INT1 in order to avoid PIC selecting the WIFI chip while SD Card processing on SPI bus.
  fix provided by keithV from Diligent
 
+
+Before compiling the RobotChipkit libs, this lib must replace the standard MPIDE lib located in
+\hardware\pic32\libraries\SD\
