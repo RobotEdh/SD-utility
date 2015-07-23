@@ -33,6 +33,16 @@
  */
 #define ALLOW_DEPRECATED_FUNCTIONS 1
 //------------------------------------------------------------------------------
+
+//------------------------------------------------------------------------------
+/**
+Before compiling the RobotChipkit libs, this lib must replace the standard MPIDE lib located in
+\hardware\pic32\libraries\SD\
+ */
+#define PICEDH_SdFat_h
+
+//------------------------------------------------------------------------------
+
 // forward declaration since SdVolume is used in SdFile
 class SdVolume;
 //==============================================================================
